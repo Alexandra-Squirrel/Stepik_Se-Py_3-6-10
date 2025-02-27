@@ -10,9 +10,13 @@
 
 ## Запуск
 - тест должен запускаться и проходить успешно с параметром --language следующей командой:
+ ```
 pytest --language=es test_items.py
+```
 - тест может запускаться и проходить успешно с параметром --browser_nm (chrome or firefox)  следующей командой:
+```
 pytest --browser_nm=firefox test_items.py
+```
 
 ## Значения по умолчанию
 - browser_nm=chrome
